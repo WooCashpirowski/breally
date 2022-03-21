@@ -92,6 +92,7 @@ const Navigation = styled.nav`
     justify-content: space-evenly;
     transform: translateY(-100%);
     opacity: 0;
+    visibility: hidden;
     transition: all 0.5s ease;
     ul {
         list-style: none;
@@ -108,6 +109,7 @@ const Navigation = styled.nav`
     &.expanded {
         transform: translateY(0);
         opacity: 1;
+        visibility: visible;
     }
 `
 
